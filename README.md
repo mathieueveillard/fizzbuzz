@@ -1,17 +1,3 @@
-# js-kata-starter
+# fizzbuzz
 
-Starter project for kata (Node, TypeScript, Jest)
-
-## Installation
-
-```shell
-git clone https://github.com/mathieueveillard/js-kata-starter.git
-cd js-kata-starter
-npm install
-```
-
-## Development
-
-```shell
-npm test
-```
+Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
