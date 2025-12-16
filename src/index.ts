@@ -1,6 +1,6 @@
 const isMultipleOf = (m: number) => (n: number): boolean => n % m === 0;
 
-export function internal(n: number): string {
+export const internal = (n: number): string => {
   let result = "";
 
   if (isMultipleOf(3)(n)) {
@@ -12,8 +12,6 @@ export function internal(n: number): string {
   }
 
   return result || n.toString();
-}
+};
 
-export function FizzBuzz(n: number): string[] {
-  return [...Array(n)].map((_, i) => i + 1).map(internal);
-}
+export const FizzBuzz = (n: number): string[] => [...Array(n)].map((_, i) => i + 1).map(internal);

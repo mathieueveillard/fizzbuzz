@@ -42,16 +42,16 @@ describe("Test of internal()", function () {
   });
 });
 
-describe("Test of FizzBuzz()", function () {
-  it("FizzBuzz(1) should return ['1']", function () {
+describe("Test of FizzBuzz()", () => {
+  it("FizzBuzz(1) should return ['1']", () => {
     expect(FizzBuzz(1)).toEqual(["1"]);
   });
 
-  it("FizzBuzz(2) should return ['1', '2']", function () {
+  it("FizzBuzz(2) should return ['1', '2']", () => {
     expect(FizzBuzz(2)).toEqual(["1", "2"]);
   });
 
-  it("FizzBuzz(10) should return...", function () {
+  it("FizzBuzz(10) should return...", () => {
     expect(FizzBuzz(10)).toEqual(["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz"]);
   });
 });
